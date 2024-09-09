@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    color: rgb(66, 180, 250);
+    background-color: rgb(8, 10, 51);
+    margin: 0;
+    padding: 0;
+}
+.preloader{
+background: #080A33 url(/music-playlist/assets/Infinity@1x-1.0s-200px-200px.gif) no-repeat center center;
+height: 100vh;
+width: 100%;
+position: fixed;
+z-index: 2000;
+}
+body{
+    position: relative;
+}
+body::-webkit-scrollbar {
+    width: 15px; 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgb(8, 10, 51);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 180, 250);
+    border-radius: 16px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(71, 77, 218); 
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 4px 4px 6px white;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+header img{
+    width: 20vw;
+    height: 20vh;
+}
+
+.nav-links{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 10px;
+    width: 40vw;
+    padding: 20px;
+    font-size: 24px;
+    box-sizing: border-box;
+    background-color: rgb(55, 50, 186);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(55, 50, 186);
+}
+nav ul li{
+    background-color: rgb(55, 50, 186);
+}
+nav ul li button{
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out,color 200ms ease-in-out;
+}
+nav ul li button:hover{
+    background-color: rgb(66, 180, 250);
+    color: white !important;
+}
+
+.rap-songs{
+    margin: 60px 40px 60px 40px;
+    display: flex;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.rap-songs::-webkit-scrollbar {
+    width: 15px;
+}
+
+.rap-songs::-webkit-scrollbar-track {
+    background-color: rgb(8, 10, 51);
+}
+
+.rap-songs::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 180, 250);
+    border-radius: 16px;
+}
+
+.rap-songs::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(71, 77, 218);
+}
+
+.rap-songs video{
+    border: 2px solid rgb(66, 180, 250);
+    border-radius: 10px;
+    margin:50px 50px 50px 50px;
+    width: 500px;
+    cursor: pointer;
+}
+ .rap-container{
+    position: relative;
+}
+
+.rap-songs .left-button {
+    position: absolute;
+    top: 40%;
+    left: 23px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+
+.rap-songs .left-button:hover {
+    transform: translateX(-6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+}
+
+
+.rap-songs .left-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.rap-songs .right-button{
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    right: 6px;
+    width: 60px;
+    height: 60px;
+    margin-right: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+.rap-songs .right-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.rap-songs .right-button:hover{
+    transform: translateX(6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+    
+}
+
+
+
+
+.slow-songs{
+    margin: 60px 40px 60px 40px;
+    display: flex;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.slow-songs::-webkit-scrollbar {
+    width: 10px;
+}
+
+.slow-songs::-webkit-scrollbar-track {
+    background-color: rgb(8, 10, 51);
+}
+
+.slow-songs::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 180, 250);
+    border-radius: 16px;
+}
+
+.slow-songs::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(71, 77, 218);
+}
+
+.slow-songs video{
+    border: 2px solid rgb(66, 180, 250);
+    border-radius: 10px;
+    margin:50px 50px 50px 50px;
+    width: 500px;
+    height: 285px;
+    cursor: pointer;
+}
+ .slow-container{
+    position: relative;
+}
+.slow-songs .left-button{
+    position: absolute;
+    top: 53%;
+    left: 23px;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+.slow-songs .left-button:hover{
+    transform: translateX(-6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+}
+.slow-songs .left-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.slow-songs .right-button{
+    position: absolute;
+    font-size: 30px;
+    top: 53%;
+    right: 6px;
+    width: 60px;
+    height: 60px;
+    margin-right: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+.slow-songs .right-button:hover{
+    transform: translateX(6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+}
+.slow-songs .right-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.reverb-songs{
+    margin: 60px 40px 60px 40px;
+    display: flex;
+    overflow-x: scroll;
+    box-sizing: border-box;
+}
+.reverb-songs::-webkit-scrollbar {
+    width: 10px;
+}
+
+.reverb-songs::-webkit-scrollbar-track {
+    background-color: rgb(8, 10, 51);
+}
+
+.reverb-songs::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 180, 250);
+    border-radius: 16px;
+}
+
+.reverb-songs::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(71, 77, 218);
+}
+
+.reverb-songs video{
+    border: 2px solid rgb(66, 180, 250);
+    border-radius: 10px;
+    margin:50px 50px 50px 50px;
+    width: 500px;
+    cursor: pointer;
+}
+ .reverb-container{
+    position: relative;
+}
+.reverb-songs .left-button{
+    position: absolute;
+    top: 84%;
+    left: 23px;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+.reverb-songs .left-button:hover{
+    transform: translateX(-6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+}
+
+.reverb-songs .left-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.reverb-songs .right-button{
+    position: absolute;
+    font-size: 30px;
+    top: 84%;
+    right: 6px;
+    width: 60px;
+    height: 60px;
+    margin-right: 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out, outline 200ms ease-in-out;
+    outline: none;
+}
+.reverb-songs .right-button:hover{
+    transform: translateX(6px);
+    outline: 3px solid white; /* Changes outline instead of border */
+}
+.reverb-songs .right-button img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

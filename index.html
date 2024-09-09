@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="preloader"></div>
+    <header>
+        <nav>
+            <a href="#"><img src="/music-playlist/assets/music-logo.png" alt="Logo"></a>
+            <a href="#">
+                <h1>Coding Music</h1>
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><button id="rap-link">Rap Songs</button></li>
+                    <li><button id="slow-link">Slow Songs</button></li>
+                    <li><button id="reverb-link">Reverb Songs</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="rap-container">
+        <div class="rap-songs">
+            <video src="/music-playlist/assets/videos/rap-1.mp4" controls></video>
+            <video style="margin-right: 60px;" src="/music-playlist/assets/videos/rap-3.mp4" controls></video>
+            <video src="/music-playlist/assets/videos/rap-4.mp4" controls></video>
+            <video src="/music-playlist/assets/videos/rap-5.mp4" controls></video>
+            <video src="/music-playlist/assets/videos/rap-6.mp4" controls></video>
+            <video src="/music-playlist/assets/videos/rap-7.mp4" controls></video>
+            <div class="left-button" onclick="scrollMusic('rap','left-click')">
+                <img src="/music-playlist/assets/keyboard_double_arrow_left_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                    alt="">
+            </div>
+            <div class="right-button" onclick="scrollMusic('rap','right-click')">
+                <img src="/music-playlist/assets/keyboard_double_arrow_right_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="slow-container"></section>
+    <div class="slow-songs">
+        <video src="/music-playlist/assets/videos/slow-1.mp4" controls></video>
+        <video src="/music-playlist/assets/videos/slow-2.mp4" controls></video>
+        <video src="/music-playlist/assets/videos/slow-3.mp4" controls></video>
+        <div class="left-button" onclick="scrollMusic('slow','left-click')">
+            <img src="/music-playlist/assets/keyboard_double_arrow_left_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                alt="">
+        </div>
+        <div class="right-button" onclick="scrollMusic('slow','right-click')">
+            <img src="/music-playlist/assets/keyboard_double_arrow_right_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                alt="">
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="reverb-container"></section>
+    <div class="reverb-songs">
+        <video src="/music-playlist/assets/videos/reverb-3.mp4" controls></video>
+        <video src="/music-playlist/assets/videos/reverb-4.mp4" controls></video>
+        <video src="/music-playlist/assets/videos/reverb-1.mp4" controls></video>
+        <video src="/music-playlist/assets/videos/reverb-2.mp4" controls></video>
+
+        <div class="left-button" onclick="scrollMusic('reverb','left-click')">
+            <img src="/music-playlist/assets/keyboard_double_arrow_left_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                alt="">
+        </div>
+        <div class="right-button" onclick="scrollMusic('reverb','right-click')">
+            <img src="/music-playlist/assets/keyboard_double_arrow_right_24dp_RGB(66, 180, 250)_FILL0_wght400_GRAD0_opsz24.png"
+                alt="">
+        </div>
+    </div>
+    </section>
+    <script src="/music-playlist/script.js"></script>
+</body>
+
+</html>
