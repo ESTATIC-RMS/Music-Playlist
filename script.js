@@ -13,10 +13,10 @@ window.addEventListener('load', () => {
             window.scrollTo({top: 0, behavior: 'smooth'});
         });
         slowButton.addEventListener('click', (e) => {
-            window.scrollTo({top: 461.3333435058594, behavior: 'smooth'});
+            window.scrollTo({top: 461.34, behavior: 'smooth'});
         });
         reverbButton.addEventListener('click', (e) => {
-            window.scrollTo({top: 924.6666870117188, behavior: 'smooth'});
+            window.scrollTo({top: 924.67, behavior: 'smooth'});
 
         });   
         

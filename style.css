@@ -8,7 +8,7 @@
     padding: 0;
 }
 .preloader{
-background: #080A33 url(/music-playlist/assets/Infinity@1x-1.0s-200px-200px.gif) no-repeat center center;
+background: #080A33 url(./assets/preloader.gif) no-repeat center center;
 height: 100vh;
 width: 100%;
 position: fixed;
@@ -139,7 +139,7 @@ nav ul li button:hover{
 
 .rap-songs .left-button:hover {
     transform: translateX(-6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
 }
 
 
@@ -170,7 +170,7 @@ nav ul li button:hover{
 
 .rap-songs .right-button:hover{
     transform: translateX(6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
     
 }
 
@@ -225,7 +225,7 @@ nav ul li button:hover{
 }
 .slow-songs .left-button:hover{
     transform: translateX(-6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
 }
 .slow-songs .left-button img{
     width: 60px;
@@ -248,7 +248,7 @@ nav ul li button:hover{
 }
 .slow-songs .right-button:hover{
     transform: translateX(6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
 }
 .slow-songs .right-button img{
     width: 60px;
@@ -308,7 +308,7 @@ nav ul li button:hover{
 }
 .reverb-songs .left-button:hover{
     transform: translateX(-6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
 }
 
 .reverb-songs .left-button img{
@@ -332,7 +332,7 @@ nav ul li button:hover{
 }
 .reverb-songs .right-button:hover{
     transform: translateX(6px);
-    outline: 3px solid white; /* Changes outline instead of border */
+    outline: 3px solid white; 
 }
 .reverb-songs .right-button img{
     width: 60px;
