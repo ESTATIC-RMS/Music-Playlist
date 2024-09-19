@@ -27,11 +27,11 @@ window.addEventListener('load', () => {
         function scrollMusic(category,key){
             if(category=='rap'){
                 if(key=='left-click'){
-                    rapScroll-=606;
+                    rapScroll-=590;
                     document.querySelector('.rap-songs').scrollTo({left: rapScroll, behavior:'smooth'});
                 }
                 else if(key=='right-click'){
-                    rapScroll+=606;
+                    rapScroll+=590;
                     document.querySelector('.rap-songs').scrollTo({left: rapScroll, behavior:'smooth'});
                 }
             }
@@ -47,11 +47,11 @@ window.addEventListener('load', () => {
             }
             else if(category=='reverb'){
                 if(key=='left-click'){
-                    reverbScroll-=606;
+                    reverbScroll-=570;
                     document.querySelector('.reverb-songs').scrollTo({left: reverbScroll, behavior:'smooth'});
                 }
                 else if(key=='right-click'){
-                    reverbScroll+=606;
+                    reverbScroll+=570;
                     document.querySelector('.reverb-songs').scrollTo({left: reverbScroll, behavior:'smooth'});
                 }
             }

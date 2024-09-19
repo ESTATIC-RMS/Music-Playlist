@@ -116,7 +116,7 @@ nav ul li button:hover{
 .rap-songs video{
     border: 2px solid rgb(66, 180, 250);
     border-radius: 10px;
-    margin:50px 50px 50px 50px;
+    margin:45px;
     width: 500px;
     cursor: pointer;
 }
@@ -127,7 +127,7 @@ nav ul li button:hover{
 .rap-songs .left-button {
     position: absolute;
     top: 40%;
-    left: 23px;
+    left: 15px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -203,7 +203,7 @@ nav ul li button:hover{
 .slow-songs video{
     border: 2px solid rgb(66, 180, 250);
     border-radius: 10px;
-    margin:50px 50px 50px 50px;
+    margin:45px;
     width: 500px;
     height: 285px;
     cursor: pointer;
@@ -214,7 +214,7 @@ nav ul li button:hover{
 .slow-songs .left-button{
     position: absolute;
     top: 53%;
-    left: 23px;
+    left: 15px;
     width: 60px;
     height: 60px;
     margin-left: 5px;
